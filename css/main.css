@@ -1,0 +1,223 @@
+/* Styles */
+
+@font-face {
+    font-family: 'miss_donna_regularregular';
+    src: url('miss_donna_regular-webfont.eot');
+    src: url('miss_donna_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('miss_donna_regular-webfont.woff') format('woff'),
+         url('miss_donna_regular-webfont.ttf') format('truetype'),
+         url('miss_donna_regular-webfont.svg#miss_donna_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+		
+body {
+    font-family:  'miss_donna_regularregular';
+    margin: 0px;
+	padding: 0px;
+	background:black;
+
+}
+		
+a {
+	color:black;
+	text-decoration:none;
+}
+		
+#wrapper {
+	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:20px;
+    text-align:center;
+}
+		
+h2 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+		
+.titletextcontainer {
+    background: rgba(233, 225, 211, 0.5);
+	width:615px;
+	height:125px;
+	position:relative;
+	top:415px;
+	float:right;
+}
+.textcontainer {
+	background: rgba(233, 225, 211, 0.5);
+	width:1280px;
+	height:125px;
+	position:relative;
+	top:415px;
+	float:right;
+}
+
+.abouttextcontainer {
+	background: rgba(233, 225, 211, 0.8);
+	width: 560px;
+	position: relative;
+	padding: 20px 20px 20px 20px;
+	float:right;
+	top: 200px;
+	right: 50px;
+}
+		
+.abouttextcontainer h1{
+	padding-top:0px;
+}
+
+.abouttextcontainer h3{
+	margin:0px 0px 0px 0px;
+}
+
+.abouttext{
+	height:auto;
+}
+		
+.abouttext a{
+	font-size:25px;
+}
+		
+.abouttext a.credit{
+    font-size:14px;
+	font-weight: normal;
+    font-style: normal; 	
+}
+		
+.aboutpage {
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+		
+.photo {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.photo2 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.photo3 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.photo4 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.spacebar {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50px;
+    position: relative;
+    opacity:.75;
+}
+
+.landing {
+    background-image: url(../images/croppedlanding.jpg);
+}
+
+.about {
+    background-image: url(../images/shopjpgnobar.jpg);
+}
+		
+.about h1{
+	text-align:left;
+	padding-left:40px;
+}
+		
+.store {
+    background-image: url(../images/aboutjpgnobar.jpg);
+}
+		
+.store h1{
+	text-align:right;
+	padding-right:40px;
+}
+
+.blog {
+    background-image: url(../images/blogjpgbar.jpg);
+}
+		
+.blog h1{
+	text-align:left;
+	padding-left:40px;
+}
+		
+.aboutimg{
+    background-image: url(../images/marandacropped.jpg);
+
+}
+
+.fblink {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('icons/facebook.png') bottom;
+    padding:0px;
+    position:relative;
+    float:right;
+}
+
+.instalink {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('icons/instagram.png') bottom;
+	margin-right: 20px;
+    padding:0px;
+    position:relative;
+    float:right;
+}
+
+.pintlink {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('icons/pintrest.png') bottom;
+	margin-right: 20px;
+    padding:0px;
+    position:relative;
+    float:right;
+}
+
+.etsylink {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('icons/etsy.png') bottom;
+	margin-right: 20px;
+    padding:0px;
+    position:relative;
+    float:right;
+}
+	 
+		
